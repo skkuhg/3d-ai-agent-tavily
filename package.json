@@ -1,0 +1,41 @@
+{
+  "name": "3d-ai-agent-tavily",
+  "version": "1.0.0",
+  "description": "A highly interactive and elegant 3D AI agent powered by Tavily AI",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "dev": "live-server --port=3000",
+    "build": "echo 'No build process needed for this static project'",
+    "serve": "python -m http.server 8000"
+  },
+  "keywords": [
+    "3d",
+    "ai",
+    "agent",
+    "tavily",
+    "threejs",
+    "chatbot",
+    "voice",
+    "interactive",
+    "web"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skkuhg/3d-ai-agent-tavily.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skkuhg/3d-ai-agent-tavily/issues"
+  },
+  "homepage": "https://github.com/skkuhg/3d-ai-agent-tavily#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
